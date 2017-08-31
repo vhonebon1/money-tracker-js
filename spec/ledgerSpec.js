@@ -2,7 +2,7 @@ describe('Ledger', function() {
 
   var Ledger = require('../lib/ledger');
   var ledger;
-  var entry = {}
+  var entry = {};
 
   beforeEach(function() {
     ledger = new Ledger()
